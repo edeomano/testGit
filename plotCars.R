@@ -12,5 +12,8 @@ cars %>%
   geom_bar(stat = "identity") +
   coord_flip()
 
+# save the plot
+ggsave("fig/barplot.png")
+
 
 
